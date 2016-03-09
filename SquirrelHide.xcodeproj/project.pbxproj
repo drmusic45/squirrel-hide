@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A6955361C9095C40044F573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6955351C9095C40044F573 /* AppDelegate.swift */; };
+		3A6955381C9095C40044F573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6955371C9095C40044F573 /* ViewController.swift */; };
+		3A69553B1C9095C40044F573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6955391C9095C40044F573 /* Main.storyboard */; };
+		3A69553D1C9095C40044F573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A69553C1C9095C40044F573 /* Assets.xcassets */; };
+		3A6955401C9095C40044F573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A69553E1C9095C40044F573 /* LaunchScreen.storyboard */; };
+		3A69554B1C9095C40044F573 /* SquirrelHideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A69554A1C9095C40044F573 /* SquirrelHideTests.swift */; };
+		3A6955561C9095C40044F573 /* SquirrelHideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6955551C9095C40044F573 /* SquirrelHideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A6955471C9095C40044F573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A69552A1C9095C40044F573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A6955311C9095C40044F573;
+			remoteInfo = SquirrelHide;
+		};
+		3A6955521C9095C40044F573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A69552A1C9095C40044F573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A6955311C9095C40044F573;
+			remoteInfo = SquirrelHide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A6955321C9095C40044F573 /* SquirrelHide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquirrelHide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6955351C9095C40044F573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A6955371C9095C40044F573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A69553A1C9095C40044F573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A69553C1C9095C40044F573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A69553F1C9095C40044F573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A6955411C9095C40044F573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6955461C9095C40044F573 /* SquirrelHideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquirrelHideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A69554A1C9095C40044F573 /* SquirrelHideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirrelHideTests.swift; sourceTree = "<group>"; };
+		3A69554C1C9095C40044F573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6955511C9095C40044F573 /* SquirrelHideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquirrelHideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6955551C9095C40044F573 /* SquirrelHideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirrelHideUITests.swift; sourceTree = "<group>"; };
+		3A6955571C9095C40044F573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A69552F1C9095C40044F573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6955431C9095C40044F573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A69554E1C9095C40044F573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A6955291C9095C40044F573 = {
+			isa = PBXGroup;
+			children = (
+				3A6955341C9095C40044F573 /* SquirrelHide */,
+				3A6955491C9095C40044F573 /* SquirrelHideTests */,
+				3A6955541C9095C40044F573 /* SquirrelHideUITests */,
+				3A6955331C9095C40044F573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A6955331C9095C40044F573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A6955321C9095C40044F573 /* SquirrelHide.app */,
+				3A6955461C9095C40044F573 /* SquirrelHideTests.xctest */,
+				3A6955511C9095C40044F573 /* SquirrelHideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A6955341C9095C40044F573 /* SquirrelHide */ = {
+			isa = PBXGroup;
+			children = (
+				3A6955351C9095C40044F573 /* AppDelegate.swift */,
+				3A6955371C9095C40044F573 /* ViewController.swift */,
+				3A6955391C9095C40044F573 /* Main.storyboard */,
+				3A69553C1C9095C40044F573 /* Assets.xcassets */,
+				3A69553E1C9095C40044F573 /* LaunchScreen.storyboard */,
+				3A6955411C9095C40044F573 /* Info.plist */,
+			);
+			path = SquirrelHide;
+			sourceTree = "<group>";
+		};
+		3A6955491C9095C40044F573 /* SquirrelHideTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A69554A1C9095C40044F573 /* SquirrelHideTests.swift */,
+				3A69554C1C9095C40044F573 /* Info.plist */,
+			);
+			path = SquirrelHideTests;
+			sourceTree = "<group>";
+		};
+		3A6955541C9095C40044F573 /* SquirrelHideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A6955551C9095C40044F573 /* SquirrelHideUITests.swift */,
+				3A6955571C9095C40044F573 /* Info.plist */,
+			);
+			path = SquirrelHideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A6955311C9095C40044F573 /* SquirrelHide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A69555A1C9095C40044F573 /* Build configuration list for PBXNativeTarget "SquirrelHide" */;
+			buildPhases = (
+				3A69552E1C9095C40044F573 /* Sources */,
+				3A69552F1C9095C40044F573 /* Frameworks */,
+				3A6955301C9095C40044F573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquirrelHide;
+			productName = SquirrelHide;
+			productReference = 3A6955321C9095C40044F573 /* SquirrelHide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A6955451C9095C40044F573 /* SquirrelHideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A69555D1C9095C40044F573 /* Build configuration list for PBXNativeTarget "SquirrelHideTests" */;
+			buildPhases = (
+				3A6955421C9095C40044F573 /* Sources */,
+				3A6955431C9095C40044F573 /* Frameworks */,
+				3A6955441C9095C40044F573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A6955481C9095C40044F573 /* PBXTargetDependency */,
+			);
+			name = SquirrelHideTests;
+			productName = SquirrelHideTests;
+			productReference = 3A6955461C9095C40044F573 /* SquirrelHideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A6955501C9095C40044F573 /* SquirrelHideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A6955601C9095C40044F573 /* Build configuration list for PBXNativeTarget "SquirrelHideUITests" */;
+			buildPhases = (
+				3A69554D1C9095C40044F573 /* Sources */,
+				3A69554E1C9095C40044F573 /* Frameworks */,
+				3A69554F1C9095C40044F573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A6955531C9095C40044F573 /* PBXTargetDependency */,
+			);
+			name = SquirrelHideUITests;
+			productName = SquirrelHideUITests;
+			productReference = 3A6955511C9095C40044F573 /* SquirrelHideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A69552A1C9095C40044F573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mobilestudio;
+				TargetAttributes = {
+					3A6955311C9095C40044F573 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					3A6955451C9095C40044F573 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3A6955311C9095C40044F573;
+					};
+					3A6955501C9095C40044F573 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3A6955311C9095C40044F573;
+					};
+				};
+			};
+			buildConfigurationList = 3A69552D1C9095C40044F573 /* Build configuration list for PBXProject "SquirrelHide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A6955291C9095C40044F573;
+			productRefGroup = 3A6955331C9095C40044F573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A6955311C9095C40044F573 /* SquirrelHide */,
+				3A6955451C9095C40044F573 /* SquirrelHideTests */,
+				3A6955501C9095C40044F573 /* SquirrelHideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A6955301C9095C40044F573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6955401C9095C40044F573 /* LaunchScreen.storyboard in Resources */,
+				3A69553D1C9095C40044F573 /* Assets.xcassets in Resources */,
+				3A69553B1C9095C40044F573 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6955441C9095C40044F573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A69554F1C9095C40044F573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A69552E1C9095C40044F573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6955381C9095C40044F573 /* ViewController.swift in Sources */,
+				3A6955361C9095C40044F573 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6955421C9095C40044F573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A69554B1C9095C40044F573 /* SquirrelHideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A69554D1C9095C40044F573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6955561C9095C40044F573 /* SquirrelHideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A6955481C9095C40044F573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A6955311C9095C40044F573 /* SquirrelHide */;
+			targetProxy = 3A6955471C9095C40044F573 /* PBXContainerItemProxy */;
+		};
+		3A6955531C9095C40044F573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A6955311C9095C40044F573 /* SquirrelHide */;
+			targetProxy = 3A6955521C9095C40044F573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A6955391C9095C40044F573 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A69553A1C9095C40044F573 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A69553E1C9095C40044F573 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A69553F1C9095C40044F573 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A6955581C9095C40044F573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A6955591C9095C40044F573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A69555B1C9095C40044F573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SquirrelHide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilestudio.SquirrelHide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A69555C1C9095C40044F573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SquirrelHide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilestudio.SquirrelHide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A69555E1C9095C40044F573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SquirrelHideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilestudio.SquirrelHideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquirrelHide.app/SquirrelHide";
+			};
+			name = Debug;
+		};
+		3A69555F1C9095C40044F573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SquirrelHideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilestudio.SquirrelHideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquirrelHide.app/SquirrelHide";
+			};
+			name = Release;
+		};
+		3A6955611C9095C40044F573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SquirrelHideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilestudio.SquirrelHideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SquirrelHide;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3A6955621C9095C40044F573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SquirrelHideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilestudio.SquirrelHideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SquirrelHide;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A69552D1C9095C40044F573 /* Build configuration list for PBXProject "SquirrelHide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A6955581C9095C40044F573 /* Debug */,
+				3A6955591C9095C40044F573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A69555A1C9095C40044F573 /* Build configuration list for PBXNativeTarget "SquirrelHide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A69555B1C9095C40044F573 /* Debug */,
+				3A69555C1C9095C40044F573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A69555D1C9095C40044F573 /* Build configuration list for PBXNativeTarget "SquirrelHideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A69555E1C9095C40044F573 /* Debug */,
+				3A69555F1C9095C40044F573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A6955601C9095C40044F573 /* Build configuration list for PBXNativeTarget "SquirrelHideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A6955611C9095C40044F573 /* Debug */,
+				3A6955621C9095C40044F573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A69552A1C9095C40044F573 /* Project object */;
+}
